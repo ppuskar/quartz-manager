@@ -18,6 +18,20 @@ A  web-based management interface for Quartz Scheduler, built with Spring Boot a
 - **Modern UI**: Professional interface with sidebar navigation, floating headers, and responsive design
 - **Cron Expression Support**: Flexible scheduling with cron expressions
 
+## Screenshots
+
+### Dashboard
+Overview of all scheduled jobs with real-time status and quick actions.
+![Dashboard](screenshots/dashboard.png)
+
+### Create Job
+Simple form to create new scheduled jobs with HTTP request configuration.
+![Create Job](screenshots/create-job.png)
+
+### Execution History
+Detailed history of job executions with status, duration, and response data.
+![Execution History](screenshots/history.png)
+
 ## Tech Stack
 
 ### Backend
