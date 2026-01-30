@@ -1,11 +1,11 @@
 # Quartz Manager
 
 [![License](https://img.shields.io/badge/License-MIT%20NonCommercial-blue.svg)](LICENSE)
-[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.java.net/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-25-orange.svg)](https://openjdk.java.net/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
 
-A modern web-based management interface for Quartz Scheduler, built with Spring Boot and React.
+A  web-based management interface for Quartz Scheduler, built with Spring Boot and React.
 
 > **License Notice**: This software is free for non-commercial use only. Commercial use is prohibited without permission. See [LICENSE](LICENSE) for details.
 
@@ -21,10 +21,10 @@ A modern web-based management interface for Quartz Scheduler, built with Spring 
 ## Tech Stack
 
 ### Backend
-- Spring Boot 3.4.2
+- Spring Boot 4.0.2
 - Quartz Scheduler 2.5.1
 - MySQL 8.0
-- Java 21
+- Java 25
 
 ### Frontend
 - React 18
@@ -45,7 +45,7 @@ Before running the application, ensure you have the following installed:
 
 - **Docker** (version 20.10 or higher)
 - **Docker Compose** (version 2.0 or higher)
-- **Java 21** (for local development)
+- **Java 25** (for local development)
 - **Maven 3.8+** (for local development)
 - **Node.js 18+** (for local development)
 
@@ -56,7 +56,7 @@ The easiest way to run the application is using Docker Compose:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ppuskar/quartz-manager.git
 cd quartz-manager
 ```
 
@@ -496,4 +496,4 @@ Contributions are welcome! Please note:
 
 ## Support
 
-For issues and questions, please [open an issue](https://github.com/your-repo/quartz-manager/issues) on GitHub.
+For issues and questions, please [open an issue](https://github.com/ppuskar/quartz-manager/issues) on GitHub.

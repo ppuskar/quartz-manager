@@ -16,7 +16,7 @@ import { useEffect, useState } from 'react';
 import './styles/main.css';
 import TriggerList from './components/TriggerList';
 import type { TriggerInfo } from './types';
-import { Layers, Plus, XCircle, CheckCircle, Search, RefreshCw, LayoutDashboard, Home } from 'lucide-react';
+import { Layers, Plus, XCircle, CheckCircle, Search, RefreshCw, LayoutDashboard, Home, Github } from 'lucide-react';
 import JobForm from './components/JobForm';
 import JobDetails from './components/JobDetails';
 import JobHistory from './components/JobHistory';
@@ -126,6 +126,18 @@ function App() {
                         <span>Dashboard</span>
                     </button>
                 </nav>
+                <div className="sidebar-footer">
+                    <a
+                        href="https://github.com/ppuskar/quartz-manager"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="github-sidebar-link"
+                        title="View on GitHub"
+                    >
+                        <Github size={20} />
+                        <span>GitHub</span>
+                    </a>
+                </div>
             </aside>
 
             {/* Main Content */}

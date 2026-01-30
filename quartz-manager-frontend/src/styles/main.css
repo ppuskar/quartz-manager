@@ -106,6 +106,12 @@ body {
   overflow-y: auto;
 }
 
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--glass-border);
+  margin-top: auto;
+}
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -634,6 +640,37 @@ h3 {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* GitHub Sidebar Link */
+.github-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  font-size: 0.9375rem;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.github-sidebar-link:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+  border-color: var(--primary);
+  transform: translateX(4px);
+}
+
+.github-sidebar-link svg {
+  transition: transform 0.3s ease;
+}
+
+.github-sidebar-link:hover svg {
+  transform: rotate(360deg);
 }
 
 /* Responsive */
