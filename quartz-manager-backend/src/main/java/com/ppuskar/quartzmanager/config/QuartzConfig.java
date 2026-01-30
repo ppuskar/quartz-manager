@@ -12,9 +12,9 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.config;
+package com.ppuskar.quartzmanager.config;
 
-import com.example.quartzmanager.listener.ExecutionHistoryListener;
+import com.ppuskar.quartzmanager.listener.ExecutionHistoryListener;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

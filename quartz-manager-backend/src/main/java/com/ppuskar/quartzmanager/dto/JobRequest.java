@@ -12,7 +12,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.dto;
+package com.ppuskar.quartzmanager.dto;
 
 import lombok.Data;
 import java.util.Map;

@@ -12,9 +12,9 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.repository;
+package com.ppuskar.quartzmanager.repository;
 
-import com.example.quartzmanager.entity.ExecutionLog;
+import com.ppuskar.quartzmanager.entity.ExecutionLog;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -12,7 +12,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.job;
+package com.ppuskar.quartzmanager.job;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;

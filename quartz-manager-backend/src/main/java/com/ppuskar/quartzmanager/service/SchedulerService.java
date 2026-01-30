@@ -12,11 +12,11 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.service;
+package com.ppuskar.quartzmanager.service;
 
-import com.example.quartzmanager.dto.JobRequest;
-import com.example.quartzmanager.dto.TriggerInfo;
-import com.example.quartzmanager.job.HttpJob;
+import com.ppuskar.quartzmanager.dto.JobRequest;
+import com.ppuskar.quartzmanager.dto.TriggerInfo;
+import com.ppuskar.quartzmanager.job.HttpJob;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;

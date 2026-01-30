@@ -84,7 +84,7 @@ This will start:
 
 Open your browser and navigate to:
 ```
-http://localhost
+http://localhost:3000
 ```
 
 The application will be available at the root URL, with:
@@ -431,7 +431,7 @@ quartz-manager/
 │   ├── src/
 │   │   └── main/
 │   │       ├── java/
-│   │       │   └── com/example/quartzmanager/
+│   │       │   └── com/ppuskar/quartzmanager/
 │   │       │       ├── controller/
 │   │       │       ├── service/
 │   │       │       ├── entity/

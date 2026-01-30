@@ -12,10 +12,10 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.listener;
+package com.ppuskar.quartzmanager.listener;
 
-import com.example.quartzmanager.entity.ExecutionLog;
-import com.example.quartzmanager.repository.ExecutionLogRepository;
+import com.ppuskar.quartzmanager.entity.ExecutionLog;
+import com.ppuskar.quartzmanager.repository.ExecutionLogRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.JobExecutionContext;

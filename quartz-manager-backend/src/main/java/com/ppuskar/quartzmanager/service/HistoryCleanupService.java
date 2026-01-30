@@ -12,9 +12,9 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.service;
+package com.ppuskar.quartzmanager.service;
 
-import com.example.quartzmanager.repository.ExecutionLogRepository;
+import com.ppuskar.quartzmanager.repository.ExecutionLogRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

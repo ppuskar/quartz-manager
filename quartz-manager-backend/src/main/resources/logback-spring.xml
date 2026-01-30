@@ -8,7 +8,7 @@
     </root>
 
     <!-- Application Specifc Logging -->
-    <logger name="com.example.quartzmanager" level="DEBUG"/>
+    <logger name="com.ppuskar.quartzmanager" level="DEBUG"/>
     
     <!-- Quartz Logging -->
     <logger name="org.quartz" level="INFO"/>

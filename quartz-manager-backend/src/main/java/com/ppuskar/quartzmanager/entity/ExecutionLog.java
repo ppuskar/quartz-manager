@@ -12,7 +12,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
  */
 
-package com.example.quartzmanager.entity;
+package com.ppuskar.quartzmanager.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

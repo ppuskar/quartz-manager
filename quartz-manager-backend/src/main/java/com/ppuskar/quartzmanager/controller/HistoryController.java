@@ -1,8 +1,26 @@
-package com.example.quartzmanager.controller;
+/*
+ * Copyright (c) 2026 Quartz Manager Contributors
+ *
+ * This file is part of Quartz Manager.
+ *
+ * Quartz Manager is free software: you can redistribute it and/or modify
+ * it under the terms of the MIT License with Non-Commercial Restriction.
+ *
+ * This software may NOT be used for commercial purposes.
+ * See the LICENSE file in the project root for full license information.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+ */
 
-import com.example.quartzmanager.entity.ExecutionLog;
-import com.example.quartzmanager.repository.ExecutionLogRepository;
+package com.ppuskar.quartzmanager.controller;
+
+import com.ppuskar.quartzmanager.entity.ExecutionLog;
+import com.ppuskar.quartzmanager.repository.ExecutionLogRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
