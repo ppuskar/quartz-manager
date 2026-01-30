@@ -1,0 +1,39 @@
+/*
+ * Copyright (c) 2026 Quartz Manager Contributors
+ *
+ * This file is part of Quartz Manager.
+ *
+ * Quartz Manager is free software: you can redistribute it and/or modify
+ * it under the terms of the MIT License with Non-Commercial Restriction.
+ *
+ * This software may NOT be used for commercial purposes.
+ * See the LICENSE file in the project root for full license information.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+ */
+
+export interface TriggerInfo {
+    triggerName: string;
+    triggerGroup: string;
+    cronExpression: string;
+    lastExecutionTime: string;
+    nextExecutionTime: string;
+    jobName: string;
+    jobGroup: string;
+    description: string;
+    jobDataMap: Record<string, any>;
+    state: string;
+}
+
+export interface ExecutionLog {
+    id: number;
+    jobName: string;
+    jobGroup: string;
+    triggerName: string;
+    triggerGroup: string;
+    fireTime: string;
+    endTime: string;
+    duration: number;
+    status: 'SUCCESS' | 'FAILURE' | 'VETOED';
+    message: string;
+}

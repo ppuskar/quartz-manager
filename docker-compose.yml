@@ -1,0 +1,45 @@
+services:
+  app-backend:
+    build: ./quartz-manager-backend
+    container_name: quartz-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://quartz-db:3306/quartz_manager?useSSL=false&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - SPRING_QUARTZ_PROPERTIES_ORG_QUARTZ_DATASOURCE_MYDS_URL=jdbc:mysql://quartz-db:3306/quartz_manager?useSSL=false&allowPublicKeyRetrieval=true
+    depends_on:
+      - quartz-db
+    networks:
+      - quartz-net
+
+  app-frontend:
+    build: ./quartz-manager-frontend
+    container_name: quartz-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - app-backend
+    networks:
+      - quartz-net
+
+  quartz-db:
+    image: mysql:8.0
+    container_name: quartz-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=quartz_manager
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - quartz-net
+
+networks:
+  quartz-net:
+    driver: bridge
+
+volumes:
+  db-data:
